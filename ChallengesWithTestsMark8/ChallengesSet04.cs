@@ -160,7 +160,7 @@ namespace ChallengesWithTestsMark8
             // negative factorial should throw ArgumentOutOfRangeException
             if (number < 0)
             {
-                throw new ArgumentOutOfRangeException("number", number, "The valid range for this method is positive integers.");
+                throw new ArgumentOutOfRangeException();
             }
 
             // Factorial of 0 is 1
